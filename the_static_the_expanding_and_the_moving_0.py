@@ -16,9 +16,9 @@ N = []
 r = []
 xhat = []
 for i in range(len(inin)):
-  ini = np.isnan(inin[i])==False
-  N.append(np.size(inin[i][ini]))
-  r.append(np.nan_to_num(ret[i][ini]))
-  dolz = (dolvol[i][ini]-np.nanmean(dolvol[i][ini]))/np.nanstd(dolvol[i][ini])
-  betz = (beta[i][ini]-np.nanmean(beta[i][ini]))/np.nanstd(beta[i][ini])
-  xhat.append(np.array([np.nan_to_num(dolz), np.nan_to_num(betz)]))
+    ini = np.isnan(inin[i])==False
+    N.append(np.size(inin[i][ini]))
+    r.append(np.nan_to_num(ret[i][ini]))
+    dolz = (dolvol[i][ini]-np.nanmean(dolvol[i][ini]))/np.nanstd(dolvol[i][ini])
+    betz = (beta[i][ini]-np.nanmean(beta[i][ini]))/np.nanstd(beta[i][ini])
+    xhat.append(np.array([np.nan_to_num(dolz), np.nan_to_num(betz)]))
