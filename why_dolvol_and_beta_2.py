@@ -1,5 +1,5 @@
 onefactor2 = dolz2
-wdol1 = list(map(lambda i: (1/N2[i])*(1+np.dot(onefactor2[i].T,res1.x)),range(len(inin2))))
+wdol1 = list(map(lambda i: (1/N2[i])*(1+np.dot(onefactor2[i].T, res1.x)), range(len(inin2))))
 
 bud = 5000
 wdol = []
