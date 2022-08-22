@@ -1,2 +1,2 @@
-# finance is fun with python
-https://para-topia.blogspot.com/
+# Parametric Portfolio Policy, Portfolio Optimization, OMX Stockholm 30 Index
+https://www.paratopia.se/
