@@ -1,0 +1,7 @@
+rdol = list(map(lambda i: np.dot(wdol[i], r2[i]), range(len(inin2))))
+rbet = list(map(lambda i: np.dot(wbet[i], r2[i]), range(len(inin2))))
+rmom = list(map(lambda i: np.dot(wmom[i], r2[i]), range(len(inin2))))
+rdolbet = list(map(lambda i: np.dot(wdolbet[i], r2[i]), range(len(inin2))))
+rdolmom = list(map(lambda i: np.dot(wdolmom[i], r2[i]), range(len(inin2))))
+rbetmom = list(map(lambda i: np.dot(wbetmom[i], r2[i]), range(len(inin2))))
+rdolbetmom = list(map(lambda i: np.dot(wdolbetmom[i], r2[i]), range(len(inin2))))
