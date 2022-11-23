@@ -6,8 +6,7 @@ def gas(p, returnme = False):
     tets = np.zeros((len(inin1), 1))
     tet = omega
     for i in range(0, len(inin1)):
-        tets[i,:] = tet
-        print(tet) 
+        tets[i,:] = tet 
         S = dj(tet, i)
         tet = omega+(tet-omega)*beta+alpha*S
     w = list(map(lambda i: (1/N1[i])*(1+np.dot(dolz1[i].T, tets[i,:])), range(len(inin1))))
