@@ -1,0 +1,3 @@
+import yfinance as yf
+tiktok = "SKA-B.ST	SWED-A.ST VOLV-B.ST	ERIC-B.ST ESSITY-B.ST SEB-A.ST SKF-B.ST	SAND.ST	NDA-SE.ST SHB-A.ST ASSA-B.ST SWMA.ST TELIA.ST TEL2-B.ST	ABB.ST ALIV-SDB.ST SCA-B.ST	GETI-B.ST HEXA-B.ST	AZN.ST ELUX-B.ST HM-B.ST INVE-B.ST EVO.ST BOL.ST SINCH.ST ATCO-A.ST	KINV-B.ST ALFA.ST ATCO-B.ST"
+data = yf.download(tiktok, start="2022-10-01", end="2022-11-01", interval="1mo").to_csv("newmonthdata.csv")
